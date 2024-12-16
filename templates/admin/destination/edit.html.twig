@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Destination{% endblock %}
+
+{% block body %}
+    <h1>Edit Destination</h1>
+    {{ include('admin/destination/_form.html.twig', {'button_label': 'Update'}) }}
+{% endblock %}
